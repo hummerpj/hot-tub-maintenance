@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" font-family="Arial, Helvetica, sans-serif">
+  <title>2019 Master Spas Twilight 8.2 — Circulation Pump Circuit (Option B)</title>
+
+  <!-- Background -->
+  <rect width="900" height="650" rx="12" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="450" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#e0e0e0">2019 Master Spas Twilight 8.2 — Circulation Pump Circuit</text>
+  <text x="450" y="58" text-anchor="middle" font-size="12" fill="#888">Equipment Bay Layout — ClearBlue Ionizer Option B (Pressure Side, Before Heater)</text>
+
+  <!-- ======== PIPE PATHS (thick lines) ======== -->
+  <!-- Intake: tub → gate valve → elbow → circ pump (2" PVC) -->
+  <path d="M 100,140 L 100,290" stroke="#5bc0de" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M 100,290 Q 100,330 140,330 L 200,330" stroke="#5bc0de" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M 200,330 L 200,400" stroke="#5bc0de" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- Circ pump → ClearBlue ionizer (1.5" PVC) -->
+  <path d="M 240,430 L 295,430" stroke="#f0ad4e" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- ClearBlue ionizer → heater (1.5" PVC) -->
+  <path d="M 375,430 L 420,430" stroke="#f0ad4e" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Through heater (internal) -->
+  <path d="M 420,430 L 600,430" stroke="#f0ad4e" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Heater → output gate valve (rise up, 1.5" then 2") -->
+  <path d="M 600,430 L 700,430" stroke="#d9534f" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 700,430 L 700,290" stroke="#d9534f" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- Output gate valve → ozone tee (2" PVC) -->
+  <path d="M 700,240 L 700,170" stroke="#d9534f" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- Ozone tee → flex return to tub -->
+  <path d="M 700,140 L 820,140" stroke="#d9534f" stroke-width="6" fill="none" stroke-linecap="round" stroke-dasharray="12,6"/>
+
+  <!-- ======== PIPE SIZE LABELS ======== -->
+  <text x="85" y="260" text-anchor="end" font-size="9" fill="#5599bb" font-style="italic">2" PVC</text>
+  <text x="270" y="418" text-anchor="middle" font-size="9" fill="#cc9944" font-style="italic">1.5"</text>
+  <text x="510" y="418" text-anchor="middle" font-size="9" fill="#cc9944" font-style="italic">1.5" PVC</text>
+  <text x="650" y="418" text-anchor="middle" font-size="9" fill="#bb6666" font-style="italic">1.5"</text>
+  <text x="715" y="360" text-anchor="start" font-size="9" fill="#bb6666" font-style="italic">2" PVC</text>
+
+  <!-- ======== FLOW ARROWS ======== -->
+  <polygon points="95,230 105,230 100,245" fill="#5bc0de"/>
+  <polygon points="170,325 170,335 185,330" fill="#5bc0de"/>
+  <polygon points="195,370 205,370 200,385" fill="#5bc0de"/>
+  <!-- Arrow: circ pump to ionizer -->
+  <polygon points="265,425 265,435 280,430" fill="#f0ad4e"/>
+  <!-- Arrow: ionizer to heater -->
+  <polygon points="390,425 390,435 405,430" fill="#f0ad4e"/>
+  <!-- Arrow: through heater -->
+  <polygon points="520,425 520,435 535,430" fill="#f0ad4e"/>
+  <!-- Arrow: heater exit right -->
+  <polygon points="640,425 640,435 655,430" fill="#d9534f"/>
+  <!-- Arrow: rise up to gate valve -->
+  <polygon points="695,340 705,340 700,325" fill="#d9534f"/>
+  <!-- Arrow: gate valve to ozone tee -->
+  <polygon points="695,200 705,200 700,185" fill="#d9534f"/>
+  <!-- Arrow: flex return out -->
+  <polygon points="770,135 770,145 785,140" fill="#d9534f"/>
+
+  <!-- ======== COMPONENTS ======== -->
+
+  <!-- TUB (source) -->
+  <rect x="55" y="90" width="90" height="44" rx="8" fill="#2d2d5e" stroke="#7c7cbb" stroke-width="2"/>
+  <text x="100" y="117" text-anchor="middle" font-size="14" font-weight="bold" fill="#c8c8ff">TUB</text>
+
+  <!-- Intake Gate Valve -->
+  <rect x="72" y="170" width="56" height="30" rx="4" fill="#3a3a5c" stroke="#5bc0de" stroke-width="2"/>
+  <text x="100" y="190" text-anchor="middle" font-size="10" font-weight="bold" fill="#5bc0de">GATE</text>
+  <text x="100" y="218" text-anchor="middle" font-size="9" fill="#888">(Intake)</text>
+  <text x="100" y="230" text-anchor="middle" font-size="8" fill="#666">Photo 19</text>
+
+  <!-- 90 Elbow label -->
+  <text x="130" y="310" text-anchor="middle" font-size="9" fill="#666">90 elbow</text>
+
+  <!-- Circulation Pump -->
+  <rect x="155" y="400" width="90" height="56" rx="8" fill="#2a4a2a" stroke="#5cb85c" stroke-width="2"/>
+  <text x="200" y="422" text-anchor="middle" font-size="11" font-weight="bold" fill="#5cb85c">CIRC</text>
+  <text x="200" y="436" text-anchor="middle" font-size="11" font-weight="bold" fill="#5cb85c">PUMP</text>
+  <text x="200" y="450" text-anchor="middle" font-size="9" fill="#88bb88">Laing 24/3</text>
+
+  <!-- ★ CLEARBLUE IONIZER — NEW LOCATION (Option B) -->
+  <rect x="295" y="405" width="80" height="50" rx="6" fill="#3a3218" stroke="#f0c040" stroke-width="2.5"/>
+  <text x="335" y="424" text-anchor="middle" font-size="10" font-weight="bold" fill="#f0c040">CLEARBLUE</text>
+  <text x="335" y="437" text-anchor="middle" font-size="10" font-weight="bold" fill="#f0c040">IONIZER</text>
+  <text x="335" y="450" text-anchor="middle" font-size="8" fill="#c0a030">2" tee + reducers</text>
+  <!-- Star marker -->
+  <text x="280" y="400" font-size="16" fill="#f0c040">&#9733;</text>
+
+  <!-- Reducer labels on ionizer -->
+  <text x="295" y="468" text-anchor="middle" font-size="7" fill="#999">1.5→2"</text>
+  <text x="375" y="468" text-anchor="middle" font-size="7" fill="#999">2"→1.5</text>
+
+  <!-- Heater -->
+  <rect x="420" y="395" width="180" height="70" rx="8" fill="#4a2a2a" stroke="#d9534f" stroke-width="2"/>
+  <text x="510" y="425" text-anchor="middle" font-size="13" font-weight="bold" fill="#d9534f">BALBOA BP HEATER</text>
+  <text x="510" y="443" text-anchor="middle" font-size="11" fill="#cc8888">4.0 kW — Flow L to R</text>
+  <text x="510" y="458" text-anchor="middle" font-size="8" fill="#666">Photo 18</text>
+  <!-- Union symbols -->
+  <rect x="410" y="422" width="14" height="16" rx="3" fill="none" stroke="#888" stroke-width="1.5"/>
+  <text x="417" y="434" text-anchor="middle" font-size="7" fill="#888">U</text>
+  <rect x="596" y="422" width="14" height="16" rx="3" fill="none" stroke="#888" stroke-width="1.5"/>
+  <text x="603" y="434" text-anchor="middle" font-size="7" fill="#888">U</text>
+
+  <!-- 5.5 inch measurement annotation -->
+  <line x1="245" y1="485" x2="410" y2="485" stroke="#f0c040" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="245" y1="480" x2="245" y2="490" stroke="#f0c040" stroke-width="1"/>
+  <line x1="410" y1="480" x2="410" y2="490" stroke="#f0c040" stroke-width="1"/>
+  <text x="327" y="498" text-anchor="middle" font-size="9" fill="#f0c040">~5.5" available (1.5" PVC)</text>
+
+  <!-- Output Gate Valve -->
+  <rect x="672" y="250" width="56" height="30" rx="4" fill="#3a3a5c" stroke="#d9534f" stroke-width="2"/>
+  <text x="700" y="270" text-anchor="middle" font-size="10" font-weight="bold" fill="#d9534f">GATE</text>
+  <text x="700" y="298" text-anchor="middle" font-size="9" fill="#888">(Output)</text>
+  <text x="700" y="310" text-anchor="middle" font-size="8" fill="#666">Photo 17</text>
+
+  <!-- Ozone Bypass Tee -->
+  <rect x="670" y="130" width="60" height="40" rx="6" fill="#3a2a4a" stroke="#9b59b6" stroke-width="2"/>
+  <text x="700" y="147" text-anchor="middle" font-size="10" font-weight="bold" fill="#9b59b6">OZONE</text>
+  <text x="700" y="161" text-anchor="middle" font-size="10" font-weight="bold" fill="#9b59b6">TEE</text>
+
+  <!-- Vinyl tube up from ozone tee -->
+  <path d="M 700,130 L 700,100" stroke="#9b59b6" stroke-width="3" fill="none" stroke-dasharray="4,3"/>
+  <text x="700" y="92" text-anchor="middle" font-size="8" fill="#9b59b6">vinyl tube</text>
+
+  <!-- Ozonator -->
+  <rect x="660" y="65" width="80" height="24" rx="4" fill="#2a2a4a" stroke="#9b59b6" stroke-width="1.5"/>
+  <text x="700" y="81" text-anchor="middle" font-size="9" font-weight="bold" fill="#9b59b6">LAMUDO SPA-124</text>
+  <text x="700" y="57" text-anchor="middle" font-size="8" fill="#666">Photo 16</text>
+
+  <!-- Flex return label -->
+  <text x="825" y="125" text-anchor="middle" font-size="9" fill="#888">~1" flex PVC</text>
+  <text x="825" y="137" text-anchor="middle" font-size="9" fill="#888">return to tub</text>
+  <text x="825" y="155" text-anchor="middle" font-size="8" fill="#666">Photo 20</text>
+
+  <!-- Tub return destination -->
+  <rect x="820" y="90" width="60" height="30" rx="8" fill="#2d2d5e" stroke="#7c7cbb" stroke-width="2"/>
+  <text x="850" y="110" text-anchor="middle" font-size="11" font-weight="bold" fill="#c8c8ff">TUB</text>
+
+  <!-- ======== LEGEND ======== -->
+  <rect x="30" y="530" width="840" height="108" rx="8" fill="#222244" stroke="#444" stroke-width="1"/>
+  <text x="450" y="550" text-anchor="middle" font-size="12" font-weight="bold" fill="#ccc">Legend</text>
+
+  <!-- Intake color -->
+  <line x1="50" y1="570" x2="90" y2="570" stroke="#5bc0de" stroke-width="5"/>
+  <text x="100" y="574" font-size="10" fill="#aaa">Intake (cold, 2" PVC — tub to circ pump)</text>
+
+  <!-- Pre-heater color -->
+  <line x1="50" y1="590" x2="90" y2="590" stroke="#f0ad4e" stroke-width="5"/>
+  <text x="100" y="594" font-size="10" fill="#aaa">Pressure side, 1.5" PVC (circ pump to ionizer to heater)</text>
+
+  <!-- Return color -->
+  <line x1="50" y1="610" x2="90" y2="610" stroke="#d9534f" stroke-width="5"/>
+  <text x="100" y="614" font-size="10" fill="#aaa">Return (hot — heater to gate valve to ozone tee to tub)</text>
+
+  <!-- ClearBlue -->
+  <rect x="450" y="562" width="50" height="16" rx="3" fill="#3a3218" stroke="#f0c040" stroke-width="2"/>
+  <text x="510" y="574" font-size="10" fill="#f0c040">ClearBlue ionizer (Option B install location)</text>
+
+  <!-- Ozone -->
+  <line x1="450" y1="593" x2="490" y2="593" stroke="#9b59b6" stroke-width="3" stroke-dasharray="4,3"/>
+  <text x="500" y="597" font-size="10" fill="#aaa">Ozone injection (vinyl tube)</text>
+
+  <!-- U = union -->
+  <rect x="450" y="607" width="14" height="14" rx="3" fill="none" stroke="#888" stroke-width="1.5"/>
+  <text x="457" y="618" text-anchor="middle" font-size="7" fill="#888">U</text>
+  <text x="475" y="618" font-size="10" fill="#aaa">= Union fitting (1.5")</text>
+
+  <!-- Pipe size note -->
+  <text x="700" y="630" text-anchor="middle" font-size="9" fill="#888">Dashed return = ~1" flex PVC (size TBD)</text>
+</svg>

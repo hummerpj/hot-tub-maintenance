@@ -73,18 +73,7 @@ The chlorine gets consumed, but the CYA stays permanently — it only leaves whe
 | 13 | 65 g | ~26 ppm | +3 ppm | In range |
 | 15 | 75 g | ~30 ppm | +3 ppm | At target — **stop trichlor, switch to bleach** |
 
-### CYA Tracking Table (tablespoon doses)
-
-| Tbsp Doses (cumulative) | Trichlor Added | Approx CYA | FC per Dose | Status |
-|---|---|---|---|---|
-| 0 | 0 g | 0 ppm | — | Fresh fill |
-| 1 | 15 g | ~6 ppm | +9 ppm | Keep going |
-| 2 | 30 g | ~12 ppm | +9 ppm | Keep going |
-| 3 | 45 g | ~18 ppm | +9 ppm | Getting close — test |
-| 4 | 60 g | ~24 ppm | +9 ppm | In range — test to confirm |
-| 5 | 75 g | ~30 ppm | +9 ppm | At target — **stop trichlor, switch to bleach** |
-
-**How to use these tables:** Pick whichever dose size you use and track cumulative doses. A teaspoon is the better daily dose — it bumps FC by ~3 ppm, which is a reasonable spike that'll settle back down. A tablespoon hits ~9 ppm FC, which is closer to shock territory — use that only if you're intentionally combining a shock with CYA building. Test CYA with your kit after you're about halfway to your target — real-world results vary with splash-out, water additions, and granule density.
+**How to use this table:** Track cumulative teaspoon doses. Each dose bumps FC by ~3 ppm, which is a reasonable spike that'll settle back down. Test CYA with your kit after you're about halfway to your target — real-world results vary with splash-out, water additions, and granule density.
 
 ### Dichlor Alternative (if you prefer granules)
 
@@ -106,16 +95,16 @@ Each ½ tsp (2.7 g) dose of dichlor raises FC ~1 ppm and adds ~0.9 ppm CYA. To r
 |---|---|---|
 | Trichlor granules (90%) | Raise FC 3 ppm (+2 ppm CYA) | 1 tsp (5 g) |
 | Dichlor (56%) | Raise FC 1 ppm (+0.9 ppm CYA) | ½ tsp (2.7 g) |
-| Bleach 6% | Raise FC 1 ppm | 1.7 tbsp (0.85 fl oz) |
-| Bleach 8.25% | Raise FC 1 ppm | 1.2 tbsp (0.62 fl oz) |
-| Bleach 10% | Raise FC 1 ppm | 1 tbsp (0.5 fl oz) |
+| Bleach 6% | Raise FC 1 ppm | 5 tsp (0.85 fl oz) |
+| Bleach 8.25% | Raise FC 1 ppm | 3.5 tsp (0.62 fl oz) |
+| Bleach 10% | Raise FC 1 ppm | 3 tsp (0.5 fl oz) |
 | Dry acid | Lower TA 10 ppm / pH ~0.2 | 1 oz (28 g) |
 | Muriatic acid 31% | Lower TA 10 ppm | 0.8 fl oz (24 mL) |
 | Baking soda | Raise TA 10 ppm | 1.5 tbsp (28 g) |
 | Calcium chloride | Raise CH 10 ppm | 1.5 tbsp (23 g) |
 | Boric acid (99%) | Top up borates 10 ppm | ⅓ cup (86 g) |
 
-**Post-soak bleach rule:** With ionizer + ozone running, dose ~1–2 fl oz of 6% bleach per person-hour at 104°F. Two people, 30 min soak ≈ 1–2 fl oz. The ozone will continue oxidizing contaminants after you close the cover — the bleach bump just restores your measurable FC residual.
+**Post-soak bleach rule:** With ionizer + ozone running, dose ~2–3 tsp of 6% bleach per person-hour at 104°F. Two people, 30 min soak ≈ 2–3 tsp. The ozone will continue oxidizing contaminants after you close the cover — the bleach bump just restores your measurable FC residual to the 1–2 ppm target.
 
 ---
 
@@ -123,7 +112,7 @@ Each ½ tsp (2.7 g) dose of dichlor raises FC ~1 ppm and adds ~0.9 ppm CYA. To r
 
 ### Daily (60 seconds)
 - Test FC and pH with strips or drop kit
-- Add bleach if FC is below 1 ppm (usually just a splash — ½ to 1 tbsp)
+- Add bleach if FC is below 1 ppm (usually just a splash — 1 to 2 tsp)
 - Dose extra bleach after soaking (see post-soak rule above)
 
 ### Weekly
